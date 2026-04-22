@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx create-vite@latest . --template react --yes)",
+      "Bash(mv finance-temp/* .)",
+      "Bash(mv finance-temp/.gitignore .)",
+      "Bash(rmdir finance-temp *)",
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
